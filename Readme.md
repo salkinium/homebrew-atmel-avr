@@ -10,11 +10,11 @@ For OS X there is no website, instead the binaries are hosted together with the 
 
 Two gcc version are provided:
 - avr-gcc 4.9.2 in toolchain 3.5.4 (`atmel-avr-gcc@35` formula), and
-- avr-gcc 5.4.0 in toolchain 3.6.0 (`atmel-avr-gcc` formula).
+- avr-gcc 5.4.0 in toolchain 3.6.1 (`atmel-avr-gcc` formula).
 
 Note that avr-gcc 5.4.0 is the very first GCC for AVRs *from Atmel* to support C++14.
 
 Sidenote:
-At the time of this writing (June 2017), no binaries for toolchain v3.6.0
+At the time of this writing (November 2017), no binaries for toolchain v3.6.1
 *for Linux* exist. The expected, but non-existant URL would be:
-- http://www.atmel.com/images/avr8-gnu-toolchain-3.6.0.1734-linux.any.x86_64.tar.gz
+- http://www.atmel.com/images/avr8-gnu-toolchain-3.6.1.495-linux.any.x86_64.tar.gz

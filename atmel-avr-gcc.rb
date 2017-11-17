@@ -3,10 +3,10 @@ require 'formula'
 class AtmelAvrGcc < Formula
 
   homepage 'http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORLINUX.aspx'
-  version '3.6.0'
+  version '3.6.1'
 
-  url 'http://distribute.atmel.no/tools/opensource/Atmel-AVR-GNU-Toolchain/3.6.0/avr8-gnu-toolchain-osx-3.6.0.487-darwin.any.x86_64.tar.gz'
-  sha256 'e333e1dd9f2a76e6940aa1682a0d740794eacae3ccddebb098e0250e1d2eee7a'
+  url 'http://distribute.atmel.no/tools/opensource/Atmel-AVR-GNU-Toolchain/3.6.1/avr8-gnu-toolchain-osx-3.6.1.495-darwin.any.x86_64.tar.gz'
+  sha256 'cb6e7658d592ccebe3f51e5954bd089ee146715d972c055895468f8c1b49b41f'
 
   def install
   	(prefix/"avr-gcc").install Dir["./*"]
